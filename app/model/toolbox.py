@@ -7,6 +7,7 @@ class ToolBox():
         Classe de utilidades
     '''
     
+    
     @staticmethod
     def get_dataframe(tipo_produto):
         '''
@@ -62,4 +63,3 @@ class ToolBox():
 
         # Gera um arquivo sqlite com os dados
         dataframe.to_sql(nameSchema, conn)
-        

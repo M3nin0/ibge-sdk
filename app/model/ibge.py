@@ -35,3 +35,32 @@ class IBGE():
             urls.append(_url + temp[25:])
 
         return urls
+
+
+    def gerar_links_geociencias(self):
+        '''
+            Gerar links das páginas de produtos de geociências
+
+            :return: links
+            :rtype: list
+        '''
+
+        _url = 'https://www.ibge.gov.br/geociencias-novoportal/organizacao-do-territorio/'
+        urls = []
+
+        for i in range(0, len(self.dataframe)):
+            _id = self.dataframe.loc[i]['id']
+            _path = self.dataframe.loc[i]['path']
+            _index = 0
+
+            while True:
+                _index = _path.find('np')
+                
+                if _index == -1:
+                    break
+
+                _path = _path[:_index] + str(_id) + _path[_index + 2 :]
+
+            urls.append(_url + _path + '.html')
+        
+        return urls
