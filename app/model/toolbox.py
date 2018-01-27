@@ -62,3 +62,4 @@ class ToolBox():
 
         # Gera um arquivo sqlite com os dados
         dataframe.to_sql(nameSchema, conn)
+        

@@ -7,13 +7,13 @@ class IBGE():
     def __init__(self, dataframe):
         '''
             Inicializador
-                - Salva o dataframe recebido como atribudo
+                - Salva o dataframe recebido como atributo
         '''
         
         self.dataframe = dataframe
 
 
-    def gerar_links(self):
+    def gerar_links_estatistica(self):
         ''' 
             Gera links das páginas com os dados
         
