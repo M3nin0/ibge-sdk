@@ -21,3 +21,8 @@ OBS: O pip pode mudar de acordo com suas configurações (Podendo ser também pi
 ```shell
 pip install -r requirements.txt
 ```
+
+
+## Sobre os dados
+
+Os dados já disponíveis são o resultado no tratamento dos links devolvidos pela API.
