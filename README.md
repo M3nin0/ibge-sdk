@@ -22,10 +22,9 @@ OBS: O pip pode mudar de acordo com suas configurações (Podendo ser também pi
 pip install -r requirements.txt
 ```
 
-
 ## Sobre os dados
 
-Os dados já disponíveis são o resultado no tratamento dos links devolvidos pela API.
+Os dados já disponíveis são o resultado no tratamento dos links devolvidos pela API na pesquisa de produtos de pesquisa.
 
 Os dados estão disponíveis nos seguintes formatos:
 - CSV;
