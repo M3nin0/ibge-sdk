@@ -26,3 +26,7 @@ pip install -r requirements.txt
 ## Sobre os dados
 
 Os dados já disponíveis são o resultado no tratamento dos links devolvidos pela API.
+
+Os dados estão disponíveis nos seguintes formatos:
+- CSV;
+- SQLite 3.
